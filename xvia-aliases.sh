@@ -1,0 +1,20 @@
+alias xvia_aliases="nvim ~/.scripts/xvia-aliases.sh"
+
+alias xvia="cd ~/workspace/xvia"
+
+alias xportal="cd ~/workspace/xvia/portal"
+alias xcatalog="cd ~/workspace/xvia/xvia-catalog"
+alias xadmin="cd ~/workspace/xvia/xvia-services"
+alias xdesign="cd ~/workspace/xvia/xvia-design-system"
+alias xpainel="cd ~/workspace/xvia/painel-cidadao"
+alias xagendfe="cd ~/workspace/xvia/agendamento-servicos"
+alias xagendm="cd ~/workspace/xvia/agendamento-middleware"
+alias xdetranfe="cd ~/workspace/xvia/detran-front-end"
+alias xdetranm="cd ~/workspace/xvia/detran-middleware"
+alias xwhatsm="cd ~/workspace/xvia/whatsapp-middleware"
+alias xsedepe="cd ~/workspace/xvia/sedepe"
+alias xapp="cd ~/workspace/xvia/xvia-mobile-app"
+alias xsefazfe="cd ~/workspace/xvia/sefaz-front-end"
+alias xsefazm="cd ~/workspace/xvia/sefaz-middleware"
+
+alias code_xvia="code ~/workspace/xvia-workspace/xvia.code-workspace"
