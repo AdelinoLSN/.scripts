@@ -1,0 +1,10 @@
+alias xvia_aliases="nvim ~/.scripts/xvia-aliases.sh"
+alias xvia="cd ~/workspace/xvia-workspace"
+alias xportal="cd ~/workspace/xvia-workspace/portal"
+alias xagendamento="cd ~/workspace/xvia-workspace/agendamento-servicos"
+alias xpainel="cd ~/workspace/xvia-workspace/painel-cidadao"
+alias xcatalog="cd ~/workspace/xvia-workspace/xvia-catalog"
+alias xapp="cd ~/workspace/xvia-workspace/xvia-mobile-app"
+alias xdesign="cd ~/workspace/xvia-workspace/xvia-design-system"
+
+alias code_xvia="code ~/workspace/xvia-workspace/xvia.code-workspace"
