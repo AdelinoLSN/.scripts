@@ -32,6 +32,17 @@ gc() {
     fi
 }
 
+gcnv() {
+    local commit_message="$1";
+
+    if [[ -z $commit_message ]] # If there is no commit message
+        then
+            git commit --no-verify -m "WIP";
+        else
+            git commit --no-verify -m "$commit_message";
+    fi
+}
+
 alias gca="git commit --amend"
 
 alias gcane="git commit --amend --no-edit"
