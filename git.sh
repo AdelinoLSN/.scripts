@@ -1,5 +1,9 @@
 alias aliases_git="nvim ~/.scripts/git.sh"
 
+gch() {
+    git checkout "$1";
+}
+
 alias glast="git checkout -"
 
 alias gs="git status"
