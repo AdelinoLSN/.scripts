@@ -2,7 +2,9 @@
 
 clean_node_modules() {
   echo "Procurando node_modules..."
-  local dirs=("${(@f)$(find . -type d -name 'node_modules')}")
+
+  local -a dirs
+  dirs=(${(@f)$(find . -type d -name node_modules -prune)})
 
   if (( ${#dirs[@]} == 0 )); then
     echo "Nenhuma pasta node_modules encontrada."
